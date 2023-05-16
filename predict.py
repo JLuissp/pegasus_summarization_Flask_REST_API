@@ -39,7 +39,6 @@ He told investors this month he had reevaluated the risks of investing in Taiwan
 }
 
 input_data = json.dumps(data)
-#print(input_data)
 header = {"Content-Type": 'application/json'}
 
 response = requests.post(url, input_data, headers=header)
